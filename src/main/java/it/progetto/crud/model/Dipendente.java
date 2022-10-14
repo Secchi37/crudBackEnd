@@ -3,6 +3,7 @@ package it.progetto.crud.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name="dipendnti")
 public class Dipendente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
